@@ -1,0 +1,598 @@
+Validate Credit Loop Routes
+Routes Summary Between:
+Port:   1 0x0002b30101000000
+    in Node: 0x0002b30101000000 FI SQUIRREL_STL_HFI0
+and Port:   1 0x001175010177840c
+    in Node: 0x001175010177840c FI huawei01 hfi1_0
+
+Routes between ports:
+     0x0002b30101000000   1 FI   SQUIRREL_STL_HFI0
+and  0x001175010177840c   1 FI   huawei01 hfi1_0
+2 Paths
+    SGID: 0xfe80000000000000:0002b30101000000
+    DGID: 0xfe80000000000000:001175010177840c
+    SLID: 0x0006 DLID: 0x0001 Reversible: Y PKey: 0x8001
+    Raw: N FlowLabel: 0x00000 HopLimit: 0x00 TClass: 0x00
+    SL:  0 Mtu:  8192 Rate: 100g PktLifeTime:  134 ms Pref: 0
+        Rate NodeGUID          Port Type Name
+        100g 0x0002b30101000000   1 FI   SQUIRREL_STL_HFI0
+        ->   0x0002b30102000000   5 SW   MOOSE_STL_SWITCH0 (0,0)
+    SGID: 0xfe80000000000000:0002b30101000000
+    DGID: 0xfe80000000000000:001175010177840c
+    SLID: 0x0006 DLID: 0x0001 Reversible: Y PKey: 0x7fff
+    Raw: N FlowLabel: 0x00000 HopLimit: 0x00 TClass: 0x00
+    SL:  0 Mtu:  8192 Rate: 100g PktLifeTime:  134 ms Pref: 0
+        Rate NodeGUID          Port Type Name
+        100g 0x0002b30101000000   1 FI   SQUIRREL_STL_HFI0
+        ->   0x0002b30102000000   5 SW   MOOSE_STL_SWITCH0 (0,0)
+-------------------------------------------------------------------------------
+Routes Summary Between:
+Port:   1 0x0002b30101000001
+    in Node: 0x0002b30101000001 FI SQUIRREL_STL_HFI1
+and Port:   1 0x001175010177840c
+    in Node: 0x001175010177840c FI huawei01 hfi1_0
+
+Routes between ports:
+     0x0002b30101000001   1 FI   SQUIRREL_STL_HFI1
+and  0x001175010177840c   1 FI   huawei01 hfi1_0
+2 Paths
+    SGID: 0xfe80000000000000:0002b30101000001
+    DGID: 0xfe80000000000000:001175010177840c
+    SLID: 0x0009 DLID: 0x0001 Reversible: Y PKey: 0x8001
+    Raw: N FlowLabel: 0x00000 HopLimit: 0x00 TClass: 0x00
+    SL:  0 Mtu:  8192 Rate: 100g PktLifeTime:  268 ms Pref: 0
+        Rate NodeGUID          Port Type Name
+        100g 0x0002b30101000001   1 FI   SQUIRREL_STL_HFI1
+        ->   0x0002b30102000001   5 SW   MOOSE_STL_SWITCH1 (1,0)
+        100g 0x0002b30102000001   1 SW   MOOSE_STL_SWITCH1 (1,0)
+        ->   0x0002b30102000000   1 SW   MOOSE_STL_SWITCH0 (0,0)
+    SGID: 0xfe80000000000000:0002b30101000001
+    DGID: 0xfe80000000000000:001175010177840c
+    SLID: 0x0009 DLID: 0x0001 Reversible: Y PKey: 0x7fff
+    Raw: N FlowLabel: 0x00000 HopLimit: 0x00 TClass: 0x00
+    SL:  0 Mtu:  8192 Rate: 100g PktLifeTime:  268 ms Pref: 0
+        Rate NodeGUID          Port Type Name
+        100g 0x0002b30101000001   1 FI   SQUIRREL_STL_HFI1
+        ->   0x0002b30102000001   5 SW   MOOSE_STL_SWITCH1 (1,0)
+        100g 0x0002b30102000001   1 SW   MOOSE_STL_SWITCH1 (1,0)
+        ->   0x0002b30102000000   1 SW   MOOSE_STL_SWITCH0 (0,0)
+-------------------------------------------------------------------------------
+Routes Summary Between:
+Port:   1 0x0002b30101000002
+    in Node: 0x0002b30101000002 FI SQUIRREL_STL_HFI2
+and Port:   1 0x001175010177840c
+    in Node: 0x001175010177840c FI huawei01 hfi1_0
+
+Routes between ports:
+     0x0002b30101000002   1 FI   SQUIRREL_STL_HFI2
+and  0x001175010177840c   1 FI   huawei01 hfi1_0
+2 Paths
+    SGID: 0xfe80000000000000:0002b30101000002
+    DGID: 0xfe80000000000000:001175010177840c
+    SLID: 0x000b DLID: 0x0001 Reversible: Y PKey: 0x8001
+    Raw: N FlowLabel: 0x00000 HopLimit: 0x00 TClass: 0x00
+    SL:  0 Mtu:  8192 Rate: 100g PktLifeTime:  268 ms Pref: 0
+        Rate NodeGUID          Port Type Name
+        100g 0x0002b30101000002   1 FI   SQUIRREL_STL_HFI2
+        ->   0x0002b30102000002   5 SW   MOOSE_STL_SWITCH2 (0,1)
+        100g 0x0002b30102000002   3 SW   MOOSE_STL_SWITCH2 (0,1)
+        ->   0x0002b30102000000   2 SW   MOOSE_STL_SWITCH0 (0,0)
+    SGID: 0xfe80000000000000:0002b30101000002
+    DGID: 0xfe80000000000000:001175010177840c
+    SLID: 0x000b DLID: 0x0001 Reversible: Y PKey: 0x7fff
+    Raw: N FlowLabel: 0x00000 HopLimit: 0x00 TClass: 0x00
+    SL:  0 Mtu:  8192 Rate: 100g PktLifeTime:  268 ms Pref: 0
+        Rate NodeGUID          Port Type Name
+        100g 0x0002b30101000002   1 FI   SQUIRREL_STL_HFI2
+        ->   0x0002b30102000002   5 SW   MOOSE_STL_SWITCH2 (0,1)
+        100g 0x0002b30102000002   3 SW   MOOSE_STL_SWITCH2 (0,1)
+        ->   0x0002b30102000000   2 SW   MOOSE_STL_SWITCH0 (0,0)
+-------------------------------------------------------------------------------
+Routes Summary Between:
+Port:   1 0x0002b30101000003
+    in Node: 0x0002b30101000003 FI SQUIRREL_STL_HFI3
+and Port:   1 0x001175010177840c
+    in Node: 0x001175010177840c FI huawei01 hfi1_0
+
+Routes between ports:
+     0x0002b30101000003   1 FI   SQUIRREL_STL_HFI3
+and  0x001175010177840c   1 FI   huawei01 hfi1_0
+2 Paths
+    SGID: 0xfe80000000000000:0002b30101000003
+    DGID: 0xfe80000000000000:001175010177840c
+    SLID: 0x000f DLID: 0x0001 Reversible: Y PKey: 0x8001
+    Raw: N FlowLabel: 0x00000 HopLimit: 0x00 TClass: 0x00
+    SL:  0 Mtu:  8192 Rate: 100g PktLifeTime:  268 ms Pref: 0
+        Rate NodeGUID          Port Type Name
+        100g 0x0002b30101000003   1 FI   SQUIRREL_STL_HFI3
+        ->   0x0002b30102000003   5 SW   MOOSE_STL_SWITCH3 (1,1)
+        100g 0x0002b30102000003   1 SW   MOOSE_STL_SWITCH3 (1,1)
+        ->   0x0002b30102000002   1 SW   MOOSE_STL_SWITCH2 (0,1)
+        100g 0x0002b30102000002   3 SW   MOOSE_STL_SWITCH2 (0,1)
+        ->   0x0002b30102000000   2 SW   MOOSE_STL_SWITCH0 (0,0)
+    SGID: 0xfe80000000000000:0002b30101000003
+    DGID: 0xfe80000000000000:001175010177840c
+    SLID: 0x000f DLID: 0x0001 Reversible: Y PKey: 0x7fff
+    Raw: N FlowLabel: 0x00000 HopLimit: 0x00 TClass: 0x00
+    SL:  0 Mtu:  8192 Rate: 100g PktLifeTime:  268 ms Pref: 0
+        Rate NodeGUID          Port Type Name
+        100g 0x0002b30101000003   1 FI   SQUIRREL_STL_HFI3
+        ->   0x0002b30102000003   5 SW   MOOSE_STL_SWITCH3 (1,1)
+        100g 0x0002b30102000003   1 SW   MOOSE_STL_SWITCH3 (1,1)
+        ->   0x0002b30102000002   1 SW   MOOSE_STL_SWITCH2 (0,1)
+        100g 0x0002b30102000002   3 SW   MOOSE_STL_SWITCH2 (0,1)
+        ->   0x0002b30102000000   2 SW   MOOSE_STL_SWITCH0 (0,0)
+-------------------------------------------------------------------------------
+Routes Summary Between:
+Port:   1 0x0002b30101000004
+    in Node: 0x0002b30101000004 FI SQUIRREL_STL_HFI4
+and Port:   1 0x001175010177840c
+    in Node: 0x001175010177840c FI huawei01 hfi1_0
+
+Routes between ports:
+     0x0002b30101000004   1 FI   SQUIRREL_STL_HFI4
+and  0x001175010177840c   1 FI   huawei01 hfi1_0
+2 Paths
+    SGID: 0xfe80000000000000:0002b30101000004
+    DGID: 0xfe80000000000000:001175010177840c
+    SLID: 0x0013 DLID: 0x0001 Reversible: Y PKey: 0x8001
+    Raw: N FlowLabel: 0x00000 HopLimit: 0x00 TClass: 0x00
+    SL:  0 Mtu:  8192 Rate: 100g PktLifeTime:  268 ms Pref: 0
+        Rate NodeGUID          Port Type Name
+        100g 0x0002b30101000004   1 FI   SQUIRREL_STL_HFI4
+        ->   0x0002b30102000004   5 SW   MOOSE_STL_SWITCH4 (0,2)
+        100g 0x0002b30102000004   3 SW   MOOSE_STL_SWITCH4 (0,2)
+        ->   0x0002b30102000002   2 SW   MOOSE_STL_SWITCH2 (0,1)
+        100g 0x0002b30102000002   3 SW   MOOSE_STL_SWITCH2 (0,1)
+        ->   0x0002b30102000000   2 SW   MOOSE_STL_SWITCH0 (0,0)
+    SGID: 0xfe80000000000000:0002b30101000004
+    DGID: 0xfe80000000000000:001175010177840c
+    SLID: 0x0013 DLID: 0x0001 Reversible: Y PKey: 0x7fff
+    Raw: N FlowLabel: 0x00000 HopLimit: 0x00 TClass: 0x00
+    SL:  0 Mtu:  8192 Rate: 100g PktLifeTime:  268 ms Pref: 0
+        Rate NodeGUID          Port Type Name
+        100g 0x0002b30101000004   1 FI   SQUIRREL_STL_HFI4
+        ->   0x0002b30102000004   5 SW   MOOSE_STL_SWITCH4 (0,2)
+        100g 0x0002b30102000004   3 SW   MOOSE_STL_SWITCH4 (0,2)
+        ->   0x0002b30102000002   2 SW   MOOSE_STL_SWITCH2 (0,1)
+        100g 0x0002b30102000002   3 SW   MOOSE_STL_SWITCH2 (0,1)
+        ->   0x0002b30102000000   2 SW   MOOSE_STL_SWITCH0 (0,0)
+-------------------------------------------------------------------------------
+Routes Summary Between:
+Port:   1 0x0002b30101000005
+    in Node: 0x0002b30101000005 FI SQUIRREL_STL_HFI5
+and Port:   1 0x001175010177840c
+    in Node: 0x001175010177840c FI huawei01 hfi1_0
+
+Routes between ports:
+     0x0002b30101000005   1 FI   SQUIRREL_STL_HFI5
+and  0x001175010177840c   1 FI   huawei01 hfi1_0
+2 Paths
+    SGID: 0xfe80000000000000:0002b30101000005
+    DGID: 0xfe80000000000000:001175010177840c
+    SLID: 0x0017 DLID: 0x0001 Reversible: Y PKey: 0x8001
+    Raw: N FlowLabel: 0x00000 HopLimit: 0x00 TClass: 0x00
+    SL:  0 Mtu:  8192 Rate: 100g PktLifeTime:  536 ms Pref: 0
+        Rate NodeGUID          Port Type Name
+        100g 0x0002b30101000005   1 FI   SQUIRREL_STL_HFI5
+        ->   0x0002b30102000005   5 SW   MOOSE_STL_SWITCH5 (1,2)
+        100g 0x0002b30102000005   1 SW   MOOSE_STL_SWITCH5 (1,2)
+        ->   0x0002b30102000004   1 SW   MOOSE_STL_SWITCH4 (0,2)
+        100g 0x0002b30102000004   3 SW   MOOSE_STL_SWITCH4 (0,2)
+        ->   0x0002b30102000002   2 SW   MOOSE_STL_SWITCH2 (0,1)
+        100g 0x0002b30102000002   3 SW   MOOSE_STL_SWITCH2 (0,1)
+        ->   0x0002b30102000000   2 SW   MOOSE_STL_SWITCH0 (0,0)
+    SGID: 0xfe80000000000000:0002b30101000005
+    DGID: 0xfe80000000000000:001175010177840c
+    SLID: 0x0017 DLID: 0x0001 Reversible: Y PKey: 0x7fff
+    Raw: N FlowLabel: 0x00000 HopLimit: 0x00 TClass: 0x00
+    SL:  0 Mtu:  8192 Rate: 100g PktLifeTime:  536 ms Pref: 0
+        Rate NodeGUID          Port Type Name
+        100g 0x0002b30101000005   1 FI   SQUIRREL_STL_HFI5
+        ->   0x0002b30102000005   5 SW   MOOSE_STL_SWITCH5 (1,2)
+        100g 0x0002b30102000005   1 SW   MOOSE_STL_SWITCH5 (1,2)
+        ->   0x0002b30102000004   1 SW   MOOSE_STL_SWITCH4 (0,2)
+        100g 0x0002b30102000004   3 SW   MOOSE_STL_SWITCH4 (0,2)
+        ->   0x0002b30102000002   2 SW   MOOSE_STL_SWITCH2 (0,1)
+        100g 0x0002b30102000002   3 SW   MOOSE_STL_SWITCH2 (0,1)
+        ->   0x0002b30102000000   2 SW   MOOSE_STL_SWITCH0 (0,0)
+-------------------------------------------------------------------------------
+Routes Summary Between:
+Port:   1 0x0002b30101000006
+    in Node: 0x0002b30101000006 FI SQUIRREL_STL_HFI6
+and Port:   1 0x001175010177840c
+    in Node: 0x001175010177840c FI huawei01 hfi1_0
+
+Routes between ports:
+     0x0002b30101000006   1 FI   SQUIRREL_STL_HFI6
+and  0x001175010177840c   1 FI   huawei01 hfi1_0
+2 Paths
+    SGID: 0xfe80000000000000:0002b30101000006
+    DGID: 0xfe80000000000000:001175010177840c
+    SLID: 0x001b DLID: 0x0001 Reversible: Y PKey: 0x8001
+    Raw: N FlowLabel: 0x00000 HopLimit: 0x00 TClass: 0x00
+    SL:  0 Mtu:  8192 Rate: 100g PktLifeTime:  536 ms Pref: 0
+        Rate NodeGUID          Port Type Name
+        100g 0x0002b30101000006   1 FI   SQUIRREL_STL_HFI6
+        ->   0x0002b30102000006   5 SW   MOOSE_STL_SWITCH6 (0,3)
+        100g 0x0002b30102000006   3 SW   MOOSE_STL_SWITCH6 (0,3)
+        ->   0x0002b30102000004   2 SW   MOOSE_STL_SWITCH4 (0,2)
+        100g 0x0002b30102000004   3 SW   MOOSE_STL_SWITCH4 (0,2)
+        ->   0x0002b30102000002   2 SW   MOOSE_STL_SWITCH2 (0,1)
+        100g 0x0002b30102000002   3 SW   MOOSE_STL_SWITCH2 (0,1)
+        ->   0x0002b30102000000   2 SW   MOOSE_STL_SWITCH0 (0,0)
+    SGID: 0xfe80000000000000:0002b30101000006
+    DGID: 0xfe80000000000000:001175010177840c
+    SLID: 0x001b DLID: 0x0001 Reversible: Y PKey: 0x7fff
+    Raw: N FlowLabel: 0x00000 HopLimit: 0x00 TClass: 0x00
+    SL:  0 Mtu:  8192 Rate: 100g PktLifeTime:  536 ms Pref: 0
+        Rate NodeGUID          Port Type Name
+        100g 0x0002b30101000006   1 FI   SQUIRREL_STL_HFI6
+        ->   0x0002b30102000006   5 SW   MOOSE_STL_SWITCH6 (0,3)
+        100g 0x0002b30102000006   3 SW   MOOSE_STL_SWITCH6 (0,3)
+        ->   0x0002b30102000004   2 SW   MOOSE_STL_SWITCH4 (0,2)
+        100g 0x0002b30102000004   3 SW   MOOSE_STL_SWITCH4 (0,2)
+        ->   0x0002b30102000002   2 SW   MOOSE_STL_SWITCH2 (0,1)
+        100g 0x0002b30102000002   3 SW   MOOSE_STL_SWITCH2 (0,1)
+        ->   0x0002b30102000000   2 SW   MOOSE_STL_SWITCH0 (0,0)
+-------------------------------------------------------------------------------
+Routes Summary Between:
+Port:   1 0x0002b30101000007
+    in Node: 0x0002b30101000007 FI SQUIRREL_STL_HFI7
+and Port:   1 0x001175010177840c
+    in Node: 0x001175010177840c FI huawei01 hfi1_0
+
+Routes between ports:
+     0x0002b30101000007   1 FI   SQUIRREL_STL_HFI7
+and  0x001175010177840c   1 FI   huawei01 hfi1_0
+2 Paths
+    SGID: 0xfe80000000000000:0002b30101000007
+    DGID: 0xfe80000000000000:001175010177840c
+    SLID: 0x001e DLID: 0x0001 Reversible: Y PKey: 0x8001
+    Raw: N FlowLabel: 0x00000 HopLimit: 0x00 TClass: 0x00
+    SL:  0 Mtu:  8192 Rate: 100g PktLifeTime:  536 ms Pref: 0
+        Rate NodeGUID          Port Type Name
+        100g 0x0002b30101000007   1 FI   SQUIRREL_STL_HFI7
+        ->   0x0002b30102000007   5 SW   MOOSE_STL_SWITCH7 (1,3)
+        100g 0x0002b30102000007   1 SW   MOOSE_STL_SWITCH7 (1,3)
+        ->   0x0002b30102000006   1 SW   MOOSE_STL_SWITCH6 (0,3)
+        100g 0x0002b30102000006   3 SW   MOOSE_STL_SWITCH6 (0,3)
+        ->   0x0002b30102000004   2 SW   MOOSE_STL_SWITCH4 (0,2)
+        100g 0x0002b30102000004   3 SW   MOOSE_STL_SWITCH4 (0,2)
+        ->   0x0002b30102000002   2 SW   MOOSE_STL_SWITCH2 (0,1)
+        100g 0x0002b30102000002   3 SW   MOOSE_STL_SWITCH2 (0,1)
+        ->   0x0002b30102000000   2 SW   MOOSE_STL_SWITCH0 (0,0)
+    SGID: 0xfe80000000000000:0002b30101000007
+    DGID: 0xfe80000000000000:001175010177840c
+    SLID: 0x001e DLID: 0x0001 Reversible: Y PKey: 0x7fff
+    Raw: N FlowLabel: 0x00000 HopLimit: 0x00 TClass: 0x00
+    SL:  0 Mtu:  8192 Rate: 100g PktLifeTime:  536 ms Pref: 0
+        Rate NodeGUID          Port Type Name
+        100g 0x0002b30101000007   1 FI   SQUIRREL_STL_HFI7
+        ->   0x0002b30102000007   5 SW   MOOSE_STL_SWITCH7 (1,3)
+        100g 0x0002b30102000007   1 SW   MOOSE_STL_SWITCH7 (1,3)
+        ->   0x0002b30102000006   1 SW   MOOSE_STL_SWITCH6 (0,3)
+        100g 0x0002b30102000006   3 SW   MOOSE_STL_SWITCH6 (0,3)
+        ->   0x0002b30102000004   2 SW   MOOSE_STL_SWITCH4 (0,2)
+        100g 0x0002b30102000004   3 SW   MOOSE_STL_SWITCH4 (0,2)
+        ->   0x0002b30102000002   2 SW   MOOSE_STL_SWITCH2 (0,1)
+        100g 0x0002b30102000002   3 SW   MOOSE_STL_SWITCH2 (0,1)
+        ->   0x0002b30102000000   2 SW   MOOSE_STL_SWITCH0 (0,0)
+-------------------------------------------------------------------------------
+Routes Summary Between:
+Port:   1 0x0002b30101000008
+    in Node: 0x0002b30101000008 FI SQUIRREL_STL_HFI8
+and Port:   1 0x001175010177840c
+    in Node: 0x001175010177840c FI huawei01 hfi1_0
+
+Routes between ports:
+     0x0002b30101000008   1 FI   SQUIRREL_STL_HFI8
+and  0x001175010177840c   1 FI   huawei01 hfi1_0
+2 Paths
+    SGID: 0xfe80000000000000:0002b30101000008
+    DGID: 0xfe80000000000000:001175010177840c
+    SLID: 0x0020 DLID: 0x0001 Reversible: Y PKey: 0x8001
+    Raw: N FlowLabel: 0x00000 HopLimit: 0x00 TClass: 0x00
+    SL:  0 Mtu:  8192 Rate: 100g PktLifeTime:  536 ms Pref: 0
+        Rate NodeGUID          Port Type Name
+        100g 0x0002b30101000008   1 FI   SQUIRREL_STL_HFI8
+        ->   0x0002b30102000008   5 SW   MOOSE_STL_SWITCH8 (0,4)
+        100g 0x0002b30102000008   3 SW   MOOSE_STL_SWITCH8 (0,4)
+        ->   0x0002b30102000006   2 SW   MOOSE_STL_SWITCH6 (0,3)
+        100g 0x0002b30102000006   3 SW   MOOSE_STL_SWITCH6 (0,3)
+        ->   0x0002b30102000004   2 SW   MOOSE_STL_SWITCH4 (0,2)
+        100g 0x0002b30102000004   3 SW   MOOSE_STL_SWITCH4 (0,2)
+        ->   0x0002b30102000002   2 SW   MOOSE_STL_SWITCH2 (0,1)
+        100g 0x0002b30102000002   3 SW   MOOSE_STL_SWITCH2 (0,1)
+        ->   0x0002b30102000000   2 SW   MOOSE_STL_SWITCH0 (0,0)
+    SGID: 0xfe80000000000000:0002b30101000008
+    DGID: 0xfe80000000000000:001175010177840c
+    SLID: 0x0020 DLID: 0x0001 Reversible: Y PKey: 0x7fff
+    Raw: N FlowLabel: 0x00000 HopLimit: 0x00 TClass: 0x00
+    SL:  0 Mtu:  8192 Rate: 100g PktLifeTime:  536 ms Pref: 0
+        Rate NodeGUID          Port Type Name
+        100g 0x0002b30101000008   1 FI   SQUIRREL_STL_HFI8
+        ->   0x0002b30102000008   5 SW   MOOSE_STL_SWITCH8 (0,4)
+        100g 0x0002b30102000008   3 SW   MOOSE_STL_SWITCH8 (0,4)
+        ->   0x0002b30102000006   2 SW   MOOSE_STL_SWITCH6 (0,3)
+        100g 0x0002b30102000006   3 SW   MOOSE_STL_SWITCH6 (0,3)
+        ->   0x0002b30102000004   2 SW   MOOSE_STL_SWITCH4 (0,2)
+        100g 0x0002b30102000004   3 SW   MOOSE_STL_SWITCH4 (0,2)
+        ->   0x0002b30102000002   2 SW   MOOSE_STL_SWITCH2 (0,1)
+        100g 0x0002b30102000002   3 SW   MOOSE_STL_SWITCH2 (0,1)
+        ->   0x0002b30102000000   2 SW   MOOSE_STL_SWITCH0 (0,0)
+-------------------------------------------------------------------------------
+Routes Summary Between:
+Port:   1 0x0002b30101000009
+    in Node: 0x0002b30101000009 FI SQUIRREL_STL_HFI9
+and Port:   1 0x001175010177840c
+    in Node: 0x001175010177840c FI huawei01 hfi1_0
+
+Routes between ports:
+     0x0002b30101000009   1 FI   SQUIRREL_STL_HFI9
+and  0x001175010177840c   1 FI   huawei01 hfi1_0
+2 Paths
+    SGID: 0xfe80000000000000:0002b30101000009
+    DGID: 0xfe80000000000000:001175010177840c
+    SLID: 0x0021 DLID: 0x0001 Reversible: Y PKey: 0x8001
+    Raw: N FlowLabel: 0x00000 HopLimit: 0x00 TClass: 0x00
+    SL:  0 Mtu:  8192 Rate: 100g PktLifeTime:  536 ms Pref: 0
+        Rate NodeGUID          Port Type Name
+        100g 0x0002b30101000009   1 FI   SQUIRREL_STL_HFI9
+        ->   0x0002b30102000009   5 SW   MOOSE_STL_SWITCH9 (1,4)
+        100g 0x0002b30102000009   1 SW   MOOSE_STL_SWITCH9 (1,4)
+        ->   0x0002b30102000008   1 SW   MOOSE_STL_SWITCH8 (0,4)
+        100g 0x0002b30102000008   3 SW   MOOSE_STL_SWITCH8 (0,4)
+        ->   0x0002b30102000006   2 SW   MOOSE_STL_SWITCH6 (0,3)
+        100g 0x0002b30102000006   3 SW   MOOSE_STL_SWITCH6 (0,3)
+        ->   0x0002b30102000004   2 SW   MOOSE_STL_SWITCH4 (0,2)
+        100g 0x0002b30102000004   3 SW   MOOSE_STL_SWITCH4 (0,2)
+        ->   0x0002b30102000002   2 SW   MOOSE_STL_SWITCH2 (0,1)
+        100g 0x0002b30102000002   3 SW   MOOSE_STL_SWITCH2 (0,1)
+        ->   0x0002b30102000000   2 SW   MOOSE_STL_SWITCH0 (0,0)
+    SGID: 0xfe80000000000000:0002b30101000009
+    DGID: 0xfe80000000000000:001175010177840c
+    SLID: 0x0021 DLID: 0x0001 Reversible: Y PKey: 0x7fff
+    Raw: N FlowLabel: 0x00000 HopLimit: 0x00 TClass: 0x00
+    SL:  0 Mtu:  8192 Rate: 100g PktLifeTime:  536 ms Pref: 0
+        Rate NodeGUID          Port Type Name
+        100g 0x0002b30101000009   1 FI   SQUIRREL_STL_HFI9
+        ->   0x0002b30102000009   5 SW   MOOSE_STL_SWITCH9 (1,4)
+        100g 0x0002b30102000009   1 SW   MOOSE_STL_SWITCH9 (1,4)
+        ->   0x0002b30102000008   1 SW   MOOSE_STL_SWITCH8 (0,4)
+        100g 0x0002b30102000008   3 SW   MOOSE_STL_SWITCH8 (0,4)
+        ->   0x0002b30102000006   2 SW   MOOSE_STL_SWITCH6 (0,3)
+        100g 0x0002b30102000006   3 SW   MOOSE_STL_SWITCH6 (0,3)
+        ->   0x0002b30102000004   2 SW   MOOSE_STL_SWITCH4 (0,2)
+        100g 0x0002b30102000004   3 SW   MOOSE_STL_SWITCH4 (0,2)
+        ->   0x0002b30102000002   2 SW   MOOSE_STL_SWITCH2 (0,1)
+        100g 0x0002b30102000002   3 SW   MOOSE_STL_SWITCH2 (0,1)
+        ->   0x0002b30102000000   2 SW   MOOSE_STL_SWITCH0 (0,0)
+-------------------------------------------------------------------------------
+Routes Summary Between:
+Port:   1 0x0002b3010100000a
+    in Node: 0x0002b3010100000a FI SQUIRREL_STL_HFI10
+and Port:   1 0x001175010177840c
+    in Node: 0x001175010177840c FI huawei01 hfi1_0
+
+Routes between ports:
+     0x0002b3010100000a   1 FI   SQUIRREL_STL_HFI10
+and  0x001175010177840c   1 FI   huawei01 hfi1_0
+2 Paths
+    SGID: 0xfe80000000000000:0002b3010100000a
+    DGID: 0xfe80000000000000:001175010177840c
+    SLID: 0x001c DLID: 0x0001 Reversible: Y PKey: 0x8001
+    Raw: N FlowLabel: 0x00000 HopLimit: 0x00 TClass: 0x00
+    SL:  0 Mtu:  8192 Rate: 100g PktLifeTime:  536 ms Pref: 0
+        Rate NodeGUID          Port Type Name
+        100g 0x0002b3010100000a   1 FI   SQUIRREL_STL_HFI10
+        ->   0x0002b3010200000a   5 SW   MOOSE_STL_SWITCH10 (0,5)
+        100g 0x0002b3010200000a   2 SW   MOOSE_STL_SWITCH10 (0,5)
+        ->   0x0002b3010200000c   3 SW   MOOSE_STL_SWITCH12 (0,6)
+        100g 0x0002b3010200000c   2 SW   MOOSE_STL_SWITCH12 (0,6)
+        ->   0x0002b3010200000e   3 SW   MOOSE_STL_SWITCH14 (0,7)
+        100g 0x0002b3010200000e   2 SW   MOOSE_STL_SWITCH14 (0,7)
+        ->   0x0002b30102000000   3 SW   MOOSE_STL_SWITCH0 (0,0)
+    SGID: 0xfe80000000000000:0002b3010100000a
+    DGID: 0xfe80000000000000:001175010177840c
+    SLID: 0x001c DLID: 0x0001 Reversible: Y PKey: 0x7fff
+    Raw: N FlowLabel: 0x00000 HopLimit: 0x00 TClass: 0x00
+    SL:  0 Mtu:  8192 Rate: 100g PktLifeTime:  536 ms Pref: 0
+        Rate NodeGUID          Port Type Name
+        100g 0x0002b3010100000a   1 FI   SQUIRREL_STL_HFI10
+        ->   0x0002b3010200000a   5 SW   MOOSE_STL_SWITCH10 (0,5)
+        100g 0x0002b3010200000a   2 SW   MOOSE_STL_SWITCH10 (0,5)
+        ->   0x0002b3010200000c   3 SW   MOOSE_STL_SWITCH12 (0,6)
+        100g 0x0002b3010200000c   2 SW   MOOSE_STL_SWITCH12 (0,6)
+        ->   0x0002b3010200000e   3 SW   MOOSE_STL_SWITCH14 (0,7)
+        100g 0x0002b3010200000e   2 SW   MOOSE_STL_SWITCH14 (0,7)
+        ->   0x0002b30102000000   3 SW   MOOSE_STL_SWITCH0 (0,0)
+-------------------------------------------------------------------------------
+Routes Summary Between:
+Port:   1 0x0002b3010100000b
+    in Node: 0x0002b3010100000b FI SQUIRREL_STL_HFI11
+and Port:   1 0x001175010177840c
+    in Node: 0x001175010177840c FI huawei01 hfi1_0
+
+Routes between ports:
+     0x0002b3010100000b   1 FI   SQUIRREL_STL_HFI11
+and  0x001175010177840c   1 FI   huawei01 hfi1_0
+2 Paths
+    SGID: 0xfe80000000000000:0002b3010100000b
+    DGID: 0xfe80000000000000:001175010177840c
+    SLID: 0x001f DLID: 0x0001 Reversible: Y PKey: 0x8001
+    Raw: N FlowLabel: 0x00000 HopLimit: 0x00 TClass: 0x00
+    SL:  0 Mtu:  8192 Rate: 100g PktLifeTime:  536 ms Pref: 0
+        Rate NodeGUID          Port Type Name
+        100g 0x0002b3010100000b   1 FI   SQUIRREL_STL_HFI11
+        ->   0x0002b3010200000b   5 SW   MOOSE_STL_SWITCH11 (1,5)
+        100g 0x0002b3010200000b   1 SW   MOOSE_STL_SWITCH11 (1,5)
+        ->   0x0002b3010200000a   1 SW   MOOSE_STL_SWITCH10 (0,5)
+        100g 0x0002b3010200000a   2 SW   MOOSE_STL_SWITCH10 (0,5)
+        ->   0x0002b3010200000c   3 SW   MOOSE_STL_SWITCH12 (0,6)
+        100g 0x0002b3010200000c   2 SW   MOOSE_STL_SWITCH12 (0,6)
+        ->   0x0002b3010200000e   3 SW   MOOSE_STL_SWITCH14 (0,7)
+        100g 0x0002b3010200000e   2 SW   MOOSE_STL_SWITCH14 (0,7)
+        ->   0x0002b30102000000   3 SW   MOOSE_STL_SWITCH0 (0,0)
+    SGID: 0xfe80000000000000:0002b3010100000b
+    DGID: 0xfe80000000000000:001175010177840c
+    SLID: 0x001f DLID: 0x0001 Reversible: Y PKey: 0x7fff
+    Raw: N FlowLabel: 0x00000 HopLimit: 0x00 TClass: 0x00
+    SL:  0 Mtu:  8192 Rate: 100g PktLifeTime:  536 ms Pref: 0
+        Rate NodeGUID          Port Type Name
+        100g 0x0002b3010100000b   1 FI   SQUIRREL_STL_HFI11
+        ->   0x0002b3010200000b   5 SW   MOOSE_STL_SWITCH11 (1,5)
+        100g 0x0002b3010200000b   1 SW   MOOSE_STL_SWITCH11 (1,5)
+        ->   0x0002b3010200000a   1 SW   MOOSE_STL_SWITCH10 (0,5)
+        100g 0x0002b3010200000a   2 SW   MOOSE_STL_SWITCH10 (0,5)
+        ->   0x0002b3010200000c   3 SW   MOOSE_STL_SWITCH12 (0,6)
+        100g 0x0002b3010200000c   2 SW   MOOSE_STL_SWITCH12 (0,6)
+        ->   0x0002b3010200000e   3 SW   MOOSE_STL_SWITCH14 (0,7)
+        100g 0x0002b3010200000e   2 SW   MOOSE_STL_SWITCH14 (0,7)
+        ->   0x0002b30102000000   3 SW   MOOSE_STL_SWITCH0 (0,0)
+-------------------------------------------------------------------------------
+Routes Summary Between:
+Port:   1 0x0002b3010100000c
+    in Node: 0x0002b3010100000c FI SQUIRREL_STL_HFI12
+and Port:   1 0x001175010177840c
+    in Node: 0x001175010177840c FI huawei01 hfi1_0
+
+Routes between ports:
+     0x0002b3010100000c   1 FI   SQUIRREL_STL_HFI12
+and  0x001175010177840c   1 FI   huawei01 hfi1_0
+2 Paths
+    SGID: 0xfe80000000000000:0002b3010100000c
+    DGID: 0xfe80000000000000:001175010177840c
+    SLID: 0x0015 DLID: 0x0001 Reversible: Y PKey: 0x8001
+    Raw: N FlowLabel: 0x00000 HopLimit: 0x00 TClass: 0x00
+    SL:  0 Mtu:  8192 Rate: 100g PktLifeTime:  268 ms Pref: 0
+        Rate NodeGUID          Port Type Name
+        100g 0x0002b3010100000c   1 FI   SQUIRREL_STL_HFI12
+        ->   0x0002b3010200000c   5 SW   MOOSE_STL_SWITCH12 (0,6)
+        100g 0x0002b3010200000c   2 SW   MOOSE_STL_SWITCH12 (0,6)
+        ->   0x0002b3010200000e   3 SW   MOOSE_STL_SWITCH14 (0,7)
+        100g 0x0002b3010200000e   2 SW   MOOSE_STL_SWITCH14 (0,7)
+        ->   0x0002b30102000000   3 SW   MOOSE_STL_SWITCH0 (0,0)
+    SGID: 0xfe80000000000000:0002b3010100000c
+    DGID: 0xfe80000000000000:001175010177840c
+    SLID: 0x0015 DLID: 0x0001 Reversible: Y PKey: 0x7fff
+    Raw: N FlowLabel: 0x00000 HopLimit: 0x00 TClass: 0x00
+    SL:  0 Mtu:  8192 Rate: 100g PktLifeTime:  268 ms Pref: 0
+        Rate NodeGUID          Port Type Name
+        100g 0x0002b3010100000c   1 FI   SQUIRREL_STL_HFI12
+        ->   0x0002b3010200000c   5 SW   MOOSE_STL_SWITCH12 (0,6)
+        100g 0x0002b3010200000c   2 SW   MOOSE_STL_SWITCH12 (0,6)
+        ->   0x0002b3010200000e   3 SW   MOOSE_STL_SWITCH14 (0,7)
+        100g 0x0002b3010200000e   2 SW   MOOSE_STL_SWITCH14 (0,7)
+        ->   0x0002b30102000000   3 SW   MOOSE_STL_SWITCH0 (0,0)
+-------------------------------------------------------------------------------
+Routes Summary Between:
+Port:   1 0x0002b3010100000d
+    in Node: 0x0002b3010100000d FI SQUIRREL_STL_HFI13
+and Port:   1 0x001175010177840c
+    in Node: 0x001175010177840c FI huawei01 hfi1_0
+
+Routes between ports:
+     0x0002b3010100000d   1 FI   SQUIRREL_STL_HFI13
+and  0x001175010177840c   1 FI   huawei01 hfi1_0
+2 Paths
+    SGID: 0xfe80000000000000:0002b3010100000d
+    DGID: 0xfe80000000000000:001175010177840c
+    SLID: 0x0019 DLID: 0x0001 Reversible: Y PKey: 0x8001
+    Raw: N FlowLabel: 0x00000 HopLimit: 0x00 TClass: 0x00
+    SL:  0 Mtu:  8192 Rate: 100g PktLifeTime:  536 ms Pref: 0
+        Rate NodeGUID          Port Type Name
+        100g 0x0002b3010100000d   1 FI   SQUIRREL_STL_HFI13
+        ->   0x0002b3010200000d   5 SW   MOOSE_STL_SWITCH13 (1,6)
+        100g 0x0002b3010200000d   1 SW   MOOSE_STL_SWITCH13 (1,6)
+        ->   0x0002b3010200000c   1 SW   MOOSE_STL_SWITCH12 (0,6)
+        100g 0x0002b3010200000c   2 SW   MOOSE_STL_SWITCH12 (0,6)
+        ->   0x0002b3010200000e   3 SW   MOOSE_STL_SWITCH14 (0,7)
+        100g 0x0002b3010200000e   2 SW   MOOSE_STL_SWITCH14 (0,7)
+        ->   0x0002b30102000000   3 SW   MOOSE_STL_SWITCH0 (0,0)
+    SGID: 0xfe80000000000000:0002b3010100000d
+    DGID: 0xfe80000000000000:001175010177840c
+    SLID: 0x0019 DLID: 0x0001 Reversible: Y PKey: 0x7fff
+    Raw: N FlowLabel: 0x00000 HopLimit: 0x00 TClass: 0x00
+    SL:  0 Mtu:  8192 Rate: 100g PktLifeTime:  536 ms Pref: 0
+        Rate NodeGUID          Port Type Name
+        100g 0x0002b3010100000d   1 FI   SQUIRREL_STL_HFI13
+        ->   0x0002b3010200000d   5 SW   MOOSE_STL_SWITCH13 (1,6)
+        100g 0x0002b3010200000d   1 SW   MOOSE_STL_SWITCH13 (1,6)
+        ->   0x0002b3010200000c   1 SW   MOOSE_STL_SWITCH12 (0,6)
+        100g 0x0002b3010200000c   2 SW   MOOSE_STL_SWITCH12 (0,6)
+        ->   0x0002b3010200000e   3 SW   MOOSE_STL_SWITCH14 (0,7)
+        100g 0x0002b3010200000e   2 SW   MOOSE_STL_SWITCH14 (0,7)
+        ->   0x0002b30102000000   3 SW   MOOSE_STL_SWITCH0 (0,0)
+-------------------------------------------------------------------------------
+Routes Summary Between:
+Port:   1 0x0002b3010100000e
+    in Node: 0x0002b3010100000e FI SQUIRREL_STL_HFI14
+and Port:   1 0x001175010177840c
+    in Node: 0x001175010177840c FI huawei01 hfi1_0
+
+Routes between ports:
+     0x0002b3010100000e   1 FI   SQUIRREL_STL_HFI14
+and  0x001175010177840c   1 FI   huawei01 hfi1_0
+2 Paths
+    SGID: 0xfe80000000000000:0002b3010100000e
+    DGID: 0xfe80000000000000:001175010177840c
+    SLID: 0x000d DLID: 0x0001 Reversible: Y PKey: 0x8001
+    Raw: N FlowLabel: 0x00000 HopLimit: 0x00 TClass: 0x00
+    SL:  0 Mtu:  8192 Rate: 100g PktLifeTime:  268 ms Pref: 0
+        Rate NodeGUID          Port Type Name
+        100g 0x0002b3010100000e   1 FI   SQUIRREL_STL_HFI14
+        ->   0x0002b3010200000e   5 SW   MOOSE_STL_SWITCH14 (0,7)
+        100g 0x0002b3010200000e   2 SW   MOOSE_STL_SWITCH14 (0,7)
+        ->   0x0002b30102000000   3 SW   MOOSE_STL_SWITCH0 (0,0)
+    SGID: 0xfe80000000000000:0002b3010100000e
+    DGID: 0xfe80000000000000:001175010177840c
+    SLID: 0x000d DLID: 0x0001 Reversible: Y PKey: 0x7fff
+    Raw: N FlowLabel: 0x00000 HopLimit: 0x00 TClass: 0x00
+    SL:  0 Mtu:  8192 Rate: 100g PktLifeTime:  268 ms Pref: 0
+        Rate NodeGUID          Port Type Name
+        100g 0x0002b3010100000e   1 FI   SQUIRREL_STL_HFI14
+        ->   0x0002b3010200000e   5 SW   MOOSE_STL_SWITCH14 (0,7)
+        100g 0x0002b3010200000e   2 SW   MOOSE_STL_SWITCH14 (0,7)
+        ->   0x0002b30102000000   3 SW   MOOSE_STL_SWITCH0 (0,0)
+-------------------------------------------------------------------------------
+Routes Summary Between:
+Port:   1 0x0002b3010100000f
+    in Node: 0x0002b3010100000f FI SQUIRREL_STL_HFI15
+and Port:   1 0x001175010177840c
+    in Node: 0x001175010177840c FI huawei01 hfi1_0
+
+Routes between ports:
+     0x0002b3010100000f   1 FI   SQUIRREL_STL_HFI15
+and  0x001175010177840c   1 FI   huawei01 hfi1_0
+2 Paths
+    SGID: 0xfe80000000000000:0002b3010100000f
+    DGID: 0xfe80000000000000:001175010177840c
+    SLID: 0x0011 DLID: 0x0001 Reversible: Y PKey: 0x8001
+    Raw: N FlowLabel: 0x00000 HopLimit: 0x00 TClass: 0x00
+    SL:  0 Mtu:  8192 Rate: 100g PktLifeTime:  268 ms Pref: 0
+        Rate NodeGUID          Port Type Name
+        100g 0x0002b3010100000f   1 FI   SQUIRREL_STL_HFI15
+        ->   0x0002b3010200000f   5 SW   MOOSE_STL_SWITCH15 (1,7)
+        100g 0x0002b3010200000f   1 SW   MOOSE_STL_SWITCH15 (1,7)
+        ->   0x0002b3010200000e   1 SW   MOOSE_STL_SWITCH14 (0,7)
+        100g 0x0002b3010200000e   2 SW   MOOSE_STL_SWITCH14 (0,7)
+        ->   0x0002b30102000000   3 SW   MOOSE_STL_SWITCH0 (0,0)
+    SGID: 0xfe80000000000000:0002b3010100000f
+    DGID: 0xfe80000000000000:001175010177840c
+    SLID: 0x0011 DLID: 0x0001 Reversible: Y PKey: 0x7fff
+    Raw: N FlowLabel: 0x00000 HopLimit: 0x00 TClass: 0x00
+    SL:  0 Mtu:  8192 Rate: 100g PktLifeTime:  268 ms Pref: 0
+        Rate NodeGUID          Port Type Name
+        100g 0x0002b3010100000f   1 FI   SQUIRREL_STL_HFI15
+        ->   0x0002b3010200000f   5 SW   MOOSE_STL_SWITCH15 (1,7)
+        100g 0x0002b3010200000f   1 SW   MOOSE_STL_SWITCH15 (1,7)
+        ->   0x0002b3010200000e   1 SW   MOOSE_STL_SWITCH14 (0,7)
+        100g 0x0002b3010200000e   2 SW   MOOSE_STL_SWITCH14 (0,7)
+        ->   0x0002b30102000000   3 SW   MOOSE_STL_SWITCH0 (0,0)
+-------------------------------------------------------------------------------
+Fabric summary: 33 devices, 17 HFIs, 16 switches,
+	328 connections, 512 routing decisions,
+	256 analyzed routes, 16 incomplete routes
+Routes are deadlock free (No credit loops detected)
+-------------------------------------------------------------------------------
