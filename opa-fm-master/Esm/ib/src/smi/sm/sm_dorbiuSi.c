@@ -2185,54 +2185,7 @@ _get_dor_port_group(Topology_t *topop, Node_t *switchp, Node_t* toSwitchp, uint8
 		return 0;
 	}
 //------------------------------zp start----------------------------//
-/*
-	Node_t *brother=((DorBiuSiNode_t*)toSwitchp->routingData)->brother;
-	uint32_t * firstdormap=NULL;
-	uint32_t * seconddormap=NULL;
-	
-		if(brother!=NULL&&brother==switchp&&srcDnp->brother==toSwitchp){
-			_add_ports(switchp,srcDnp->brother,ordered_ports,&count);//----take care of it-----//
-		}else if(brother!=NULL&&dorBiuClosure(topop,switchp->swIdx,brother->swIdx)){
-			int broij=DorBitMapsIndex(switchp->swIdx,brother->swIdx);
-			int broRoutingDim=routingDimension(topop, switchp, brother);
-			if(ijBiuTest(dorTop->dorLeft,broij)){
-				firstdormap=dorTop->dorLeft;
-			}
-			if(ijBiuTest(dorTop->dorRight,broij)){
-				firstdormap=dorTop->dorRight;
-			}
-			if(ijBiuTest(dorTop->dorLeft,ij)){
-				seconddormap=dorTop->dorLeft;
-			}
-			if(ijBiuTest(dorTop->dorRight,ij)){
-				seconddormap=dorTop->dorRight;
-			}
-			if(ijBiuGet(firstdormap,broij)<ijBiuGet(seconddormap,ij)){
-				if(ijBiuTest(dorTop->dorLeft,broij)){
-					_add_ports(switchp,srcDnp->left[broRoutingDim]->node,ordered_ports,&count);
-				}
-				if(ijBiuTest(dorTop->dorRight,broij)){
-					_add_ports(switchp,srcDnp->right[broRoutingDim]->node,ordered_ports,&count);
-				}
-				IB_LOG_WARN_FMT(__func__,"zp log : there is a path by biu!");
-			}else{
-				if (ijBiuTest(dorTop->dorLeft, ij)) {
-					_add_ports(switchp, srcDnp->left[routingDim]->node, ordered_ports, &count);
-				}
-				if (ijBiuTest(dorTop->dorRight, ij)) {
-					_add_ports(switchp, srcDnp->right[routingDim]->node, ordered_ports, &count);
-				}
-			}
-		}else{
-			if (ijBiuTest(dorTop->dorLeft, ij)) {
-				_add_ports(switchp, srcDnp->left[routingDim]->node, ordered_ports, &count);
-			}
 
-			if (ijBiuTest(dorTop->dorRight, ij)) {
-				_add_ports(switchp, srcDnp->right[routingDim]->node, ordered_ports, &count);
-			}
-		}
-*/
 	Node_t *brother=NULL;
 	Node_t *comm=((DorBiuSiNode_t *)toSwitchp->routingData)->comNode;
 	uint32_t * firstdormap=NULL;
@@ -2297,7 +2250,17 @@ _get_dor_port_group(Topology_t *topop, Node_t *switchp, Node_t* toSwitchp, uint8
 			_add_ports(switchp, srcDnp->right[routingDim]->node, ordered_ports, &count);
 		}
 	}
-	
+	/////just deal with the situation when biu links two neighbor nodes 
+	if(count>1){
+		int temp=0;
+		for(;temp<count;temp++){
+			if(ordered_ports[temp].portp->index==sm_config.smDorRouting.dimensionbiu.port){
+				ordered_ports[0]=ordered_ports[temp];
+				count=1;
+				break;
+			}
+		}
+	}
 //------------------------------zp stop-----------------------------//
 /*	if (ijBiuTest(dorTop->dorLeft, ij)) {
 		_add_ports(switchp, srcDnp->left[routingDim]->node, ordered_ports, &count);

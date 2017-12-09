@@ -1,13 +1,16 @@
-Executing(%prep): /bin/sh -e /var/tmp/rpm-tmp.v4WXKj
-Executing(%build): /bin/sh -e /var/tmp/rpm-tmp.MmNuUR
+Executing(%prep): /bin/sh -e /var/tmp/rpm-tmp.UJP2ug
+Executing(%build): /bin/sh -e /var/tmp/rpm-tmp.uK78NQ
 Build target operating system set to LINUX
 Build target set to X86_64 
 Setting os version to redhat 3.10.0-327.el7.x86_64 (26=1).
 + echo Environment:
 Environment:
 + env
+LC_PAPER=zh_CN.UTF-8
 RPM_OPT_FLAGS=-O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector-strong --param=ssp-buffer-size=4 -grecord-gcc-switches   -m64 -mtune=generic
-XDG_SESSION_ID=32158
+LC_ADDRESS=zh_CN.UTF-8
+XDG_SESSION_ID=32683
+LC_MONETARY=zh_CN.UTF-8
 HOSTNAME=huawei01
 BUILD_TARGET_OS_VERSION=3.10.0-327.el7.x86_64
 TL_DIR=/root/rpmbuild/BUILD/opa-fm-10.4.0.0
@@ -18,10 +21,11 @@ TERM=xterm
 BUILD_TARGET_OS_VENDOR_VERSION=ES7
 HISTSIZE=1000
 BUILD_PLATFORM_OS_VENDOR=redhat
-SSH_CLIENT=10.18.133.141 32672 22
+SSH_CLIENT=10.18.134.19 59535 22
 RPM_PACKAGE_RELEASE=196.el7.centos
 WIND_BASE=/root/rpmbuild/BUILD/opa-fm-10.4.0.0
 SELINUX_USE_CURRENT_RANGE=
+LC_NUMERIC=zh_CN.UTF-8
 BUILD_TARGET_TOOLCHAIN=GNU
 WRS_BIN=/root/rpmbuild/BUILD/opa-fm-10.4.0.0/host/unix/bin
 BUILD_PLATFORM_OS_VENDOR_VERSION=ES7
@@ -36,13 +40,16 @@ USER=root
 RPM_SOURCE_DIR=/root/rpmbuild/SOURCES
 BUILD_TARGET_OS_VENDOR=redhat
 RELEASE_TAG=10_4_0_0_196
+LC_TELEPHONE=zh_CN.UTF-8
 LS_COLORS=rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=01;05;37;41:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.axv=01;35:*.anx=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=01;36:*.au=01;36:*.flac=01;36:*.mid=01;36:*.midi=01;36:*.mka=01;36:*.mp3=01;36:*.mpc=01;36:*.ogg=01;36:*.ra=01;36:*.wav=01;36:*.axa=01;36:*.oga=01;36:*.spx=01;36:*.xspf=01;36:
 PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/root/bin
 MAIL=/var/spool/mail/root
+LC_IDENTIFICATION=zh_CN.UTF-8
 PWD=/root/rpmbuild/BUILD/opa-fm-10.4.0.0/Esm
 LANG=C
 BUILD_TARGET_OS=LINUX
 RPM_BUILD_ROOT=/root/rpmbuild/BUILDROOT/opa-fm-10.4.0.0-196.el7.centos.x86_64
+LC_MEASUREMENT=zh_CN.UTF-8
 BUILD_ULPS=all
 RPM_PACKAGE_VERSION=10.4.0.0
 SELINUX_LEVEL_REQUESTED=
@@ -55,14 +62,16 @@ SHLVL=4
 WIND_HOST_TYPE=unix
 LOGNAME=root
 PRODUCT=VIEO_HOST
-SSH_CONNECTION=10.18.133.141 32672 10.18.133.1 22
+SSH_CONNECTION=10.18.134.19 59535 10.18.133.1 22
 RPM_BUILD_DIR=/root/rpmbuild/BUILD
 LESSOPEN=||/usr/bin/lesspipe.sh %s
 PKG_CONFIG_PATH=:/usr/lib64/pkgconfig:/usr/share/pkgconfig
 XDG_RUNTIME_DIR=/run/user/0
 RPM_ARCH=x86_64
 BUILD_26=1
+LC_TIME=zh_CN.UTF-8
 BUILD_WITH_STACK=OPENIB
+LC_NAME=zh_CN.UTF-8
 _=/usr/bin/env
 + echo ----------------------------------------------------------------------------
 ----------------------------------------------------------------------------
@@ -70,10 +79,13 @@ _=/usr/bin/env
 
 + ./rpm_runmake -B release -V 10.4.0.0.196.el7.centos
 Stack to build for: OPENIB (/usr)
-Building for  X86_64 release Wed Dec  6 16:51:11 HKT 2017...
+Building for  X86_64 release 2017年 12月 09日 星期六 15:56:23 HKT...
+LC_PAPER=zh_CN.UTF-8
 RPM_OPT_FLAGS=-O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector-strong --param=ssp-buffer-size=4 -grecord-gcc-switches   -m64 -mtune=generic
-XDG_SESSION_ID=32158
+XDG_SESSION_ID=32683
+LC_ADDRESS=zh_CN.UTF-8
 HOSTNAME=huawei01
+LC_MONETARY=zh_CN.UTF-8
 SELINUX_ROLE_REQUESTED=
 TL_DIR=/root/rpmbuild/BUILD/opa-fm-10.4.0.0
 BUILD_TARGET_OS_VERSION=3.10.0-327.el7.x86_64
@@ -83,10 +95,11 @@ SHELL=/bin/bash
 HISTSIZE=1000
 BUILD_TARGET_OS_VENDOR_VERSION=ES7
 RPM_PACKAGE_RELEASE=196.el7.centos
-SSH_CLIENT=10.18.133.141 32672 22
+SSH_CLIENT=10.18.134.19 59535 22
 BUILD_PLATFORM_OS_VENDOR=redhat
 SELINUX_USE_CURRENT_RANGE=
 WIND_BASE=/root/rpmbuild/BUILD/opa-fm-10.4.0.0
+LC_NUMERIC=zh_CN.UTF-8
 WRS_BIN=/root/rpmbuild/BUILD/opa-fm-10.4.0.0/host/unix/bin
 BUILD_TARGET_TOOLCHAIN=GNU
 BUILD_PLATFORM_OS_VENDOR_VERSION=ES7
@@ -101,14 +114,17 @@ USER=root
 BUILD_SKIP_ULPS=none
 PROJ_FILE_DIR=Esm
 LS_COLORS=rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=01;05;37;41:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.axv=01;35:*.anx=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=01;36:*.au=01;36:*.flac=01;36:*.mid=01;36:*.midi=01;36:*.mka=01;36:*.mp3=01;36:*.mpc=01;36:*.ogg=01;36:*.ra=01;36:*.wav=01;36:*.axa=01;36:*.oga=01;36:*.spx=01;36:*.xspf=01;36:
+LC_TELEPHONE=zh_CN.UTF-8
 RELEASE_TAG=10_4_0_0_196
 BUILD_TARGET_OS_VENDOR=redhat
 MAIL=/var/spool/mail/root
 PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/root/bin
+LC_IDENTIFICATION=zh_CN.UTF-8
 PWD=/root/rpmbuild/BUILD/opa-fm-10.4.0.0/Esm
 LANG=C
 RPM_BUILD_ROOT=/root/rpmbuild/BUILDROOT/opa-fm-10.4.0.0-196.el7.centos.x86_64
 BUILD_TARGET_OS=LINUX
+LC_MEASUREMENT=zh_CN.UTF-8
 RPM_PACKAGE_VERSION=10.4.0.0
 BUILD_ULPS=all
 RPM_OS=linux
@@ -121,7 +137,7 @@ HOME=/root
 WIND_HOST_TYPE=unix
 LOGNAME=root
 OFED_STACK_PREFIX=/usr
-SSH_CONNECTION=10.18.133.141 32672 10.18.133.1 22
+SSH_CONNECTION=10.18.134.19 59535 10.18.133.1 22
 PRODUCT=VIEO_HOST
 RPM_BUILD_DIR=/root/rpmbuild/BUILD
 PKG_CONFIG_PATH=:/usr/lib64/pkgconfig:/usr/share/pkgconfig
@@ -129,7 +145,9 @@ LESSOPEN=||/usr/bin/lesspipe.sh %s
 RPM_ARCH=x86_64
 XDG_RUNTIME_DIR=/run/user/0
 BUILD_26=1
+LC_TIME=zh_CN.UTF-8
 BUILD_WITH_STACK=OPENIB
+LC_NAME=zh_CN.UTF-8
 _=/usr/bin/env
 Updating Makefile Dependencies
 > build.VIEO_HOST.release/depend.mk
@@ -1920,14 +1938,14 @@ sm_dorbiuSi.c:1235:22: warning: comparison of distinct pointer types lacks a cas
      (srcDnp->left[i] == dstDnp ||step!=0)) {
                       ^
 sm_dorbiuSi.c: In function '_get_dor_port_group':
-sm_dorbiuSi.c:2247:3: warning: passing argument 1 of 'dorBiuClosure' from incompatible pointer type [enabled by default]
+sm_dorbiuSi.c:2200:3: warning: passing argument 1 of 'dorBiuClosure' from incompatible pointer type [enabled by default]
    }else if(dorBiuClosure(topop,comm->swIdx,toSwitchp->swIdx)){
    ^
 In file included from sm_dorbiuSi.c:37:0:
 /root/rpmbuild/BUILD/opa-fm-10.4.0.0/Esm/ib/src/smi/include/sm_dorbiu.h:129:23: note: expected 'struct DorTopology_t *' but argument is of type 'struct Topology_t *'
  static __inline__ int dorBiuClosure(DorTopology_t* dorTop, int i, int j) {
                        ^
-sm_dorbiuSi.c:2259:4: warning: passing argument 1 of 'dorBiuClosure' from incompatible pointer type [enabled by default]
+sm_dorbiuSi.c:2212:4: warning: passing argument 1 of 'dorBiuClosure' from incompatible pointer type [enabled by default]
     }else if(brother!=NULL&&dorBiuClosure(topop,switchp->swIdx,brother->swIdx)){
     ^
 In file included from sm_dorbiuSi.c:37:0:
@@ -1935,55 +1953,55 @@ In file included from sm_dorbiuSi.c:37:0:
  static __inline__ int dorBiuClosure(DorTopology_t* dorTop, int i, int j) {
                        ^
 sm_dorbiuSi.c: In function '_print_swnode_coordinate':
-sm_dorbiuSi.c:2915:30: warning: initialization from incompatible pointer type [enabled by default]
+sm_dorbiuSi.c:2878:30: warning: initialization from incompatible pointer type [enabled by default]
    DorBiuSiNode_t *swdornodep=(DorBiuNode_t*)swnodep->routingData;
                               ^
 sm_dorbiuSi.c: In function '_print_discover_info':
-sm_dorbiuSi.c:2987:30: warning: initialization from incompatible pointer type [enabled by default]
+sm_dorbiuSi.c:2950:30: warning: initialization from incompatible pointer type [enabled by default]
    DorBiuSiNode_t *swdornodep=(DorBiuNode_t*)swnodep->routingData;
                               ^
-sm_dorbiuSi.c:3008:30: warning: initialization from incompatible pointer type [enabled by default]
+sm_dorbiuSi.c:2971:30: warning: initialization from incompatible pointer type [enabled by default]
    DorBiuSiNode_t *swdornodep=(DorBiuNode_t*)swnodep->routingData;
                               ^
 sm_dorbiuSi.c: In function '_record_communication_node':
-sm_dorbiuSi.c:3070:14: warning: unused variable 'c2' [-Wunused-variable]
+sm_dorbiuSi.c:3033:14: warning: unused variable 'c2' [-Wunused-variable]
     int a2,b2,c2;
               ^
-sm_dorbiuSi.c:3070:11: warning: unused variable 'b2' [-Wunused-variable]
+sm_dorbiuSi.c:3033:11: warning: unused variable 'b2' [-Wunused-variable]
     int a2,b2,c2;
            ^
-sm_dorbiuSi.c:3070:8: warning: unused variable 'a2' [-Wunused-variable]
+sm_dorbiuSi.c:3033:8: warning: unused variable 'a2' [-Wunused-variable]
     int a2,b2,c2;
         ^
 sm_dorbiuSi.c: In function '_post_process_discovery':
-sm_dorbiuSi.c:3108:27: warning: assignment from incompatible pointer type [enabled by default]
+sm_dorbiuSi.c:3071:27: warning: assignment from incompatible pointer type [enabled by default]
     dorTop->datelineSwitch = (DorBiuSiNode_t*)(topop->switch_head->routingData);
                            ^
-sm_dorbiuSi.c:3113:26: warning: assignment from incompatible pointer type [enabled by default]
+sm_dorbiuSi.c:3076:26: warning: assignment from incompatible pointer type [enabled by default]
    dorTop->datelineSwitch = (DorBiuSiNode_t*)(switchp->routingData);
                           ^
 sm_dorbiuSi.c: In function '_build_spanning_tree_branch':
-sm_dorbiuSi.c:3617:14: warning: assignment from incompatible pointer type [enabled by default]
+sm_dorbiuSi.c:3580:14: warning: assignment from incompatible pointer type [enabled by default]
    dneighborp = dnodep->left[dim];
               ^
-sm_dorbiuSi.c:3648:14: warning: assignment from incompatible pointer type [enabled by default]
+sm_dorbiuSi.c:3611:14: warning: assignment from incompatible pointer type [enabled by default]
    dneighborp = dnodep->right[dim];
               ^
-sm_dorbiuSi.c:3690:15: warning: assignment from incompatible pointer type [enabled by default]
+sm_dorbiuSi.c:3653:15: warning: assignment from incompatible pointer type [enabled by default]
     dneighborp = dnodep->right[dim];
                ^
-sm_dorbiuSi.c:3717:15: warning: assignment from incompatible pointer type [enabled by default]
+sm_dorbiuSi.c:3680:15: warning: assignment from incompatible pointer type [enabled by default]
     dneighborp = dnodep->left[dim];
                ^
 sm_dorbiuSi.c: In function '_build_spanning_trees':
-sm_dorbiuSi.c:3942:28: warning: initialization from incompatible pointer type [enabled by default]
+sm_dorbiuSi.c:3905:28: warning: initialization from incompatible pointer type [enabled by default]
        DorBiuSiNode_t *lp = dnodep->left[j];
                             ^
-sm_dorbiuSi.c:3953:28: warning: initialization from incompatible pointer type [enabled by default]
+sm_dorbiuSi.c:3916:28: warning: initialization from incompatible pointer type [enabled by default]
        DorBiuSiNode_t *rp = dnodep->right[j];
                             ^
 sm_dorbiuSi.c: In function '_record_communication_node':
-sm_dorbiuSi.c:3087:1: warning: control reaches end of non-void function [-Wreturn-type]
+sm_dorbiuSi.c:3050:1: warning: control reaches end of non-void function [-Wreturn-type]
  }
  ^
 gcc -pipe -DTARGET_CPU_FAMILY_X86 -Wall -D__X86_64__ -DCPU_LE -m64 -fno-strict-aliasing -fstack-protector -DLINUX -Dlinux -D__LINUX__   -DPRODUCT=VIEO_HOST -DPRODUCT_VIEO_HOST -DMODULEVERSION=10.4.0.0.196 -DIB_STACK_OPENIB -D_THREAD_SAFE -D_REENTRANT -Wstrict-prototypes -DLOCAL_MOD_ID=VIEO_SM_MOD_ID -fpie -O3 -fno-strength-reduce -D_FORTIFY_SOURCE=2 -g -I/root/rpmbuild/BUILD/opa-fm-10.4.0.0/Esm/ib/src/smi/include -I/root/rpmbuild/BUILD/opa-fm-10.4.0.0/Esm/ib/src/pm/pm/ -I/root/rpmbuild/BUILD/opa-fm-10.4.0.0/BSP/bspcommon/h -I/root/rpmbuild/BUILD/opa-fm-10.4.0.0/BSP/bspcommon/ibml/h -I/usr/lib64 -I. -I/root/rpmbuild/BUILD/opa-fm-10.4.0.0/Esm/ib/include -I/root/rpmbuild/BUILD/opa-fm-10.4.0.0/builtinclude.VIEO_HOST.release/iba -I/root/rpmbuild/BUILD/opa-fm-10.4.0.0/builtinclude.VIEO_HOST.release/iba/public -I/root/rpmbuild/BUILD/opa-fm-10.4.0.0/BSP/bspcommon/wrs/h -I/root/rpmbuild/BUILD/opa-fm-10.4.0.0/builtinclude.VIEO_HOST.release -I/root/rpmbuild/BUILD/opa-fm-10.4.0.0/builtinclude.VIEO_HOST.release/iba -I/root/rpmbuild/BUILD/opa-fm-10.4.0.0/builtinclude.VIEO_HOST.release/iba/public -I/usr/include/infiniband -I/usr/include -c sm_linux.c -o build.VIEO_HOST.release/sm_linux.o
@@ -3956,12 +3974,12 @@ cd /root/rpmbuild/BUILD/opa-fm-10.4.0.0/stage.VIEO_HOST.release/redhat/X86_64/In
 Copying comp.pl to /root/rpmbuild/BUILD/opa-fm-10.4.0.0/stage.VIEO_HOST.release/redhat/X86_64/IntelOPA-FM.RHEL7-x86_64.10.4.0.0.196/comp.pl...Copy Complete!!!
 /root/rpmbuild/BUILD/opa-fm-10.4.0.0/MakeTools/installtargets/installtargets -d /root/rpmbuild/BUILD/opa-fm-10.4.0.0/stage.VIEO_HOST.release/redhat/X86_64/IntelOPA-FM.RHEL7-x86_64.10.4.0.0.196 README
 Copying README to /root/rpmbuild/BUILD/opa-fm-10.4.0.0/stage.VIEO_HOST.release/redhat/X86_64/IntelOPA-FM.RHEL7-x86_64.10.4.0.0.196/README...Copy Complete!!!
-Done LINUX X86_64 HSM  Wed Dec  6 16:53:12 HKT 2017
+Done LINUX X86_64 HSM  2017年 12月 09日 星期六 15:58:24 HKT
 ==============================================================
-Preping Files for LINUX X86_64 Wed Dec  6 16:53:12 HKT 2017...
+Preping Files for LINUX X86_64 2017年 12月 09日 星期六 15:58:24 HKT...
 /root/rpmbuild/BUILD/opa-fm-10.4.0.0/MakeTools/convert_releasetag.pl 10_4_0_0_196 > /root/rpmbuild/BUILD/opa-fm-10.4.0.0/stage.VIEO_HOST.release/redhat/X86_64/IntelOPA-FM.RHEL7-x86_64.10.4.0.0.196/Version
 cd /root/rpmbuild/BUILD/opa-fm-10.4.0.0/stage.VIEO_HOST.release/redhat/X86_64/IntelOPA-FM.RHEL7-x86_64.10.4.0.0.196 && find . -print| /root/rpmbuild/BUILD/opa-fm-10.4.0.0/MakeTools/prep.sh
-/root/rpmbuild/BUILD/opa-fm-10.4.0.0/MakeTools/prep.sh: 10_4_0_0_196 [12/06/17 16:53]
+/root/rpmbuild/BUILD/opa-fm-10.4.0.0/MakeTools/prep.sh: 10_4_0_0_196 [12/09/17 15:58]
 Processing Directory ....
 Processing Directory ./fastfabric...
 Processing Directory ./fastfabric/ib_tools...
@@ -4015,7 +4033,7 @@ dir=`dirname /root/rpmbuild/BUILD/opa-fm-10.4.0.0/builtbin.VIEO_HOST.release`; \
 mkdir $dir/stage.rpm; \
 cp -r -L /root/rpmbuild/BUILD/opa-fm-10.4.0.0/builtbin.VIEO_HOST.release/* $dir/stage.rpm/ ; \
 cd $dir/stage.rpm && find . -print| /root/rpmbuild/BUILD/opa-fm-10.4.0.0/MakeTools/prep.sh;
-/root/rpmbuild/BUILD/opa-fm-10.4.0.0/MakeTools/prep.sh: 10_4_0_0_196 [12/06/17 16:53]
+/root/rpmbuild/BUILD/opa-fm-10.4.0.0/MakeTools/prep.sh: 10_4_0_0_196 [12/09/17 15:58]
 Processing Directory ....
 Version string added to: ./INSTALL.pl
 Version string added to: ./allhosts-sample
@@ -4133,27 +4151,27 @@ sm_dorbiuSi.c:1074:33: warning: assignment from incompatible pointer type [enabl
 sm_dorbiuSi.c:1075:42: warning: assignment from incompatible pointer type [enabled by default]
 sm_dorbiuSi.c:1180:23: warning: comparison of distinct pointer types lacks a cast [enabled by default]
 sm_dorbiuSi.c:1235:22: warning: comparison of distinct pointer types lacks a cast [enabled by default]
-sm_dorbiuSi.c:2247:3: warning: passing argument 1 of 'dorBiuClosure' from incompatible pointer type [enabled by default]
-sm_dorbiuSi.c:2259:4: warning: passing argument 1 of 'dorBiuClosure' from incompatible pointer type [enabled by default]
-sm_dorbiuSi.c:2915:30: warning: initialization from incompatible pointer type [enabled by default]
+sm_dorbiuSi.c:2200:3: warning: passing argument 1 of 'dorBiuClosure' from incompatible pointer type [enabled by default]
+sm_dorbiuSi.c:2212:4: warning: passing argument 1 of 'dorBiuClosure' from incompatible pointer type [enabled by default]
+sm_dorbiuSi.c:2878:30: warning: initialization from incompatible pointer type [enabled by default]
 sm_dorbiuSi.c:293:33: warning: initialization from incompatible pointer type [enabled by default]
+sm_dorbiuSi.c:2950:30: warning: initialization from incompatible pointer type [enabled by default]
 sm_dorbiuSi.c:296:16: warning: assignment from incompatible pointer type [enabled by default]
-sm_dorbiuSi.c:2987:30: warning: initialization from incompatible pointer type [enabled by default]
-sm_dorbiuSi.c:3008:30: warning: initialization from incompatible pointer type [enabled by default]
-sm_dorbiuSi.c:3070:11: warning: unused variable 'b2' [-Wunused-variable]
-sm_dorbiuSi.c:3070:14: warning: unused variable 'c2' [-Wunused-variable]
-sm_dorbiuSi.c:3070:8: warning: unused variable 'a2' [-Wunused-variable]
-sm_dorbiuSi.c:3087:1: warning: control reaches end of non-void function [-Wreturn-type]
-sm_dorbiuSi.c:3108:27: warning: assignment from incompatible pointer type [enabled by default]
-sm_dorbiuSi.c:3113:26: warning: assignment from incompatible pointer type [enabled by default]
-sm_dorbiuSi.c:3617:14: warning: assignment from incompatible pointer type [enabled by default]
-sm_dorbiuSi.c:3648:14: warning: assignment from incompatible pointer type [enabled by default]
-sm_dorbiuSi.c:3690:15: warning: assignment from incompatible pointer type [enabled by default]
-sm_dorbiuSi.c:3717:15: warning: assignment from incompatible pointer type [enabled by default]
-sm_dorbiuSi.c:3942:28: warning: initialization from incompatible pointer type [enabled by default]
-sm_dorbiuSi.c:3953:28: warning: initialization from incompatible pointer type [enabled by default]
+sm_dorbiuSi.c:2971:30: warning: initialization from incompatible pointer type [enabled by default]
+sm_dorbiuSi.c:3033:11: warning: unused variable 'b2' [-Wunused-variable]
+sm_dorbiuSi.c:3033:14: warning: unused variable 'c2' [-Wunused-variable]
+sm_dorbiuSi.c:3033:8: warning: unused variable 'a2' [-Wunused-variable]
+sm_dorbiuSi.c:3050:1: warning: control reaches end of non-void function [-Wreturn-type]
+sm_dorbiuSi.c:3071:27: warning: assignment from incompatible pointer type [enabled by default]
+sm_dorbiuSi.c:3076:26: warning: assignment from incompatible pointer type [enabled by default]
+sm_dorbiuSi.c:3580:14: warning: assignment from incompatible pointer type [enabled by default]
+sm_dorbiuSi.c:3611:14: warning: assignment from incompatible pointer type [enabled by default]
+sm_dorbiuSi.c:3653:15: warning: assignment from incompatible pointer type [enabled by default]
+sm_dorbiuSi.c:3680:15: warning: assignment from incompatible pointer type [enabled by default]
+sm_dorbiuSi.c:3905:28: warning: initialization from incompatible pointer type [enabled by default]
+sm_dorbiuSi.c:3916:28: warning: initialization from incompatible pointer type [enabled by default]
 sm_fsm.c:701:11: warning: variable 'status' set but not used [-Wunused-but-set-variable]
-Executing(%install): /bin/sh -e /var/tmp/rpm-tmp.DFGwS8
+Executing(%install): /bin/sh -e /var/tmp/rpm-tmp.Mb0UI9
 extracting debug info from /root/rpmbuild/BUILDROOT/opa-fm-10.4.0.0-196.el7.centos.x86_64/usr/lib/opa-fm/bin/opafmd
 extracting debug info from /root/rpmbuild/BUILDROOT/opa-fm-10.4.0.0-196.el7.centos.x86_64/usr/lib/opa-fm/bin/fm_cmd
 extracting debug info from /root/rpmbuild/BUILDROOT/opa-fm-10.4.0.0-196.el7.centos.x86_64/usr/lib/opa-fm/bin/smpoolsize
@@ -4166,7 +4184,7 @@ extracting debug info from /root/rpmbuild/BUILDROOT/opa-fm-10.4.0.0-196.el7.cent
 /usr/lib/rpm/sepdebugcrcfix: Updated 9 CRC32s, 0 CRC32s did match.
 symlinked /usr/lib/debug/usr/lib/opa-fm/bin/fm_cmd.debug to /usr/lib/debug/usr/sbin/opafmcmd.debug
 Processing files: opa-fm-10.4.0.0-196.el7.centos.x86_64
-Executing(%doc): /bin/sh -e /var/tmp/rpm-tmp.OOjxZx
+Executing(%doc): /bin/sh -e /var/tmp/rpm-tmp.Y3yblC
 Provides: config(opa-fm) = 10.4.0.0-196.el7.centos opa-fm = 10.4.0.0-196.el7.centos opa-fm(x86-64) = 10.4.0.0-196.el7.centos
 Requires(interp): /bin/sh /bin/sh
 Requires(rpmlib): rpmlib(CompressedFileNames) <= 3.0.4-1 rpmlib(FileDigests) <= 4.6.0-1 rpmlib(PayloadFilesHavePrefix) <= 4.0-1
@@ -4181,4 +4199,4 @@ Checking for unpackaged file(s): /usr/lib/rpm/check-files /root/rpmbuild/BUILDRO
 Wrote: /root/rpmbuild/SRPMS/opa-fm-10.4.0.0-196.el7.centos.src.rpm
 Wrote: /root/rpmbuild/RPMS/x86_64/opa-fm-10.4.0.0-196.el7.centos.x86_64.rpm
 Wrote: /root/rpmbuild/RPMS/x86_64/opa-fm-debuginfo-10.4.0.0-196.el7.centos.x86_64.rpm
-Executing(%clean): /bin/sh -e /var/tmp/rpm-tmp.oXz95n
+Executing(%clean): /bin/sh -e /var/tmp/rpm-tmp.2Ga1pG
